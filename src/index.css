@@ -1,0 +1,30 @@
+* {
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-color : #90e0ef; 
+  --secondary-color : #caf0f8 ; 
+
+  --icon-font-size : 3rem ; 
+  --title-font-size : 1.5rem ; 
+}
+.custom-bg-primary {
+  background-color: var(--primary-color);
+}
+.custom-bg-secondary {
+  background-color: var(--secondary-color);
+}
+.icon-font-size {
+  font-size: var(--icon-font-size);
+}
+.title-font-size {
+  font-size: var(--title-font-size);
+}
+.bold {
+  font-weight: bold;
+}
+.cursor-pointer {
+  cursor: pointer;
+}

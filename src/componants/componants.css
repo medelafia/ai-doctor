@@ -1,0 +1,19 @@
+.app {
+    width: 100%;
+    height: 100vh ; 
+    background-image: url('../assets/doctor.jfif');
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+.blood-modal {
+    width: 40%; 
+    min-height: 50vh;
+    margin: 25vh 30% ;
+}
+@media (max-width : 800px ) {
+    .blood-modal {
+        width: 90%; 
+        height: 70vh;
+        margin: 15vh 5% ;
+    }
+}
