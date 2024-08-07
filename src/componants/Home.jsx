@@ -21,14 +21,14 @@ export default function Home() {
         <div className="row">
           <ServiceBox
             title="Diagnosis"
-            btnLink="/disease"
+            btnLink="/ai-doctor/disease"
             text="Our advanced diagnostic model predicts potential diseases based on the symptoms you provide."
             variant="primary"
           >
             <i class="fa-solid fa-user-doctor icon-font-size text-white my-3"></i>
           </ServiceBox>
           <ServiceBox
-            btnLink="/blood-disease"
+            btnLink="/ai-doctor/blood-disease"
             title="Diagnosis Of Blood Analysis"
             text="Our advanced diagnostic model predicts potential diseases based on the analysis result you provide."
             variant="secondary"
