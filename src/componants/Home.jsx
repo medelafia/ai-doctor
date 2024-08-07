@@ -10,15 +10,15 @@ export default function Home() {
           <Brand /> 
         </div>
       </div>
-      <div className="container h-100 d-flex align-items-start w-100 justify-content-center flex-column">
-        <div className="mb-3 pb-5">
+      <div className="container d-flex align-items-start w-100 justify-content-center flex-column py-5">
+        <div className="mb-3 pb-5 text-capitalize">
           <span className="title-font-size bold">Ai doctor</span>
           <br />
-          the ai doctor will help you to Diagnosis your 
+          the ai doctor will help you to Diagnosis your disease using previous
           <br />
-          disease and the definition of disease and his causes 
+          experience provided by the famous doctors in the world
         </div>
-        <div className="row py-5">
+        <div className="row">
           <ServiceBox
             title="Diagnosis"
             btnLink="/disease"

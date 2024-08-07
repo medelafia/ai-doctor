@@ -41,9 +41,6 @@ export default function BloodMesure({
       }}
     >
       <div className="position-absolute" style={{ top: "30px", right: "30px" }}>
-        <button className="btn">
-          <i class="fa-solid fa-circle-info text-info"></i>
-        </button>
         <button className="btn" onClick={onClose}>
           <i class="fa-solid fa-x"></i>
         </button>
