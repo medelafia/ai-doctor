@@ -8,9 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/disease' element={<Disease /> } /> 
-        <Route path='/blood-disease' element={<BloodDisease /> } />  
+        <Route path='/disease-predection-frontend/' element={<Home />} />
+        <Route path='/disease-predection-frontend/disease' element={<Disease /> } /> 
+        <Route path='/disease-predection-frontend/blood-disease' element={<BloodDisease /> } />  
       </Routes>
      </BrowserRouter>
   )
