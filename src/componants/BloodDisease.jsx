@@ -25,7 +25,7 @@ export default function BloodDisease() {
     ));
   };
   useEffect(() => {
-    fetch("http://localhost:8000/getBloodFeatures")
+    fetch("https://bug-free-cod-vx4pjv7r7xw3pv5j-8000.app.github.dev/getBloodFeatures")
       .then((res) => res.json())
       .then((data) =>  {
         setAllBloodFeatures(data.features)
@@ -34,7 +34,7 @@ export default function BloodDisease() {
   const predict = () => {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    fetch(`http://localhost:8000/predictBloodDisease` , {
+    fetch(`https://bug-free-cod-vx4pjv7r7xw3pv5j-8000.app.github.dev/predictBloodDisease` , {
         method : "POST" , 
         headers: myHeaders , 
         body : JSON.stringify(bloodMesures)

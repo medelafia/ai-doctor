@@ -28,7 +28,7 @@ export default function Disease() {
     ));
   };
   useEffect(() => {
-    fetch("http://localhost:8000/getSymptoms")
+    fetch("https://bug-free-cod-vx4pjv7r7xw3pv5j-8000.app.github.dev/getSymptoms")
       .then((res) => res.json())
       .then((data) => setAllSymptoms(data.symptoms));
   }, []);
@@ -37,7 +37,7 @@ export default function Disease() {
     const searchParams = new URLSearchParams({
       symptoms: symptoms.join(","),
     }).toString();
-    fetch(`http://localhost:8000/predictDisease?${searchParams}`)
+    fetch(`https://bug-free-cod-vx4pjv7r7xw3pv5j-8000.app.github.dev/predictDisease?${searchParams}`)
       .then((res) => res.json())
       .then((data) => {
         console.log(data)
